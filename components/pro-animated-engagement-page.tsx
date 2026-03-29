@@ -252,7 +252,7 @@ export default function ProAnimatedEngagementPage({ onImageLoad, introFinished }
       video.currentTime = 0;
       video.load();
       const playPromise = video.play();
-      playPromise?.catch(() => {});
+      playPromise?.catch(() => { });
     } catch {
     }
   }, [introFinished]);
@@ -678,15 +678,15 @@ export default function ProAnimatedEngagementPage({ onImageLoad, introFinished }
             <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-light whitespace-nowrap">
               {t('madeBy')}
             </span>
-            <a 
-              href="https://www.instagram.com/digitiva.co?igsh=MXNteGgyZjIzenQwaQ==" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://www.instagram.com/digitiva.co?igsh=MXNteGgyZjIzenQwaQ=="
+              target="_blank"
+              rel="noopener noreferrer"
               className="transition-all duration-300 hover:scale-105"
             >
-              <img 
-                src="/digitiva.png" 
-                alt="Digitiva Logo" 
+              <img
+                src="/digitiva.png"
+                alt="Digitiva Logo"
                 className="h-16 w-auto"
               />
             </a>
