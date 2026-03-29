@@ -43,7 +43,7 @@ export default function VideoIntro({ onComplete, onSkip }: VideoIntroProps) {
           style={{ width: '100vw', height: '100dvh', objectFit: 'cover', objectPosition: 'center' }}
           playsInline={true}
           muted={true}
-          autoPlay={true}
+          autoPlay={false}
           controls={false}
           onEnded={onComplete}
           onPlay={() => setStarted(true)}
